@@ -3,7 +3,7 @@
 <p>Given a string <code>s</code>, return <code>true</code><em> if it is a <strong>palindrome</strong>, or </em><code>false</code><em> otherwise</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example- 1:</strong></p>
 
 <pre>
 <strong>Input:</strong> s = &quot;A man, a plan, a canal: Panama&quot;
