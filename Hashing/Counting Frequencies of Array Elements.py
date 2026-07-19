@@ -1,14 +1,17 @@
 class Solution:
     def countFrequencies(self, nums):
-        freq={}
+        frequency = {}
+
         for i in nums:
-            if i in freq:
-                freq[i]+=1
+            if i in frequency:
+                frequency[i] += 1
             else:
-                freq[i]=1
-        result=[]
-        for key in freq:
-            result.append([key,freq[key]])
+                frequency[i] = 1
+
+        result = []
+        for key, value in frequency.items():
+            result.append([key, value])
+
         return result
 x=Solution()
-print(x.countFrequencies([1, 2, 2, 1, 3])
+print(x.countFrequencies([1,2,2,1,3]))
