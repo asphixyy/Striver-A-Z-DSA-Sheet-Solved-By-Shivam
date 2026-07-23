@@ -1,6 +1,12 @@
 class Solution:
     def selectionSort(self, nums):
-        nums.sort()
+        n=len(nums)
+        for i in range(n):
+            min_num=i
+            for j in range (i+1,n):
+                if nums[j] < nums[min_num] :
+                    min_num=j
+            nums[i],nums[min_num]=nums[min_num],nums[i]
         return nums
 x=Solution()
 print(x.selectionSort([7, 4, 1, 5, 3]))
