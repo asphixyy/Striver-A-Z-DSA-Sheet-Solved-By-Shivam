@@ -2,6 +2,7 @@ class Solution:
     def moveZeroes(self, nums):
         zero=[]
         i=0
+       
         while i <(len(nums)):
             if nums[i]==0:
                 zero.append(nums[i])
