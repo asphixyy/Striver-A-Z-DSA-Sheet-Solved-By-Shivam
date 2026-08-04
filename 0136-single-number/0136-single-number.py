@@ -1,10 +1,8 @@
 class Solution:
     def singleNumber(self, nums):
-        freq = {}
+        ans = 0
 
         for num in nums:
-            freq[num] = freq.get(num, 0) + 1
+            ans ^= num
 
-        for num in nums:
-            if freq[num] == 1:
-                return num
+        return ans
