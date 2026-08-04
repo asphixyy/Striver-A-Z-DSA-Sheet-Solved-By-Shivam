@@ -3,8 +3,8 @@ class Solution:
         count = 0
         ans = 0
 
-        for i in range(len(nums)):
-            if nums[i] == 1:
+        for num in nums:
+            if num == 1:
                 count += 1
                 if count > ans:
                     ans = count
@@ -12,6 +12,3 @@ class Solution:
                 count = 0
 
         return ans
-
-x = Solution()
-print(x.findMaxConsecutiveOnes([1,1,0,1,1,1]))
