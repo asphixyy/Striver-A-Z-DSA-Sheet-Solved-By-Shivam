@@ -8,7 +8,3 @@ class Solution:
             max_sum = max(max_sum, current_sum)
 
         return max_sum
-
-
-x = Solution()
-print(x.maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
