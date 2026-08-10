@@ -13,7 +13,7 @@ Output: 6
 
 Explanation: Buy on day 3 (price = 5) and sell on day 5 (price = 11), profit = 11 - 5 = 6.
 
-Example 2
+**Example 2**
 
 Input: arr = [5, 4, 3, 2, 1]
 
