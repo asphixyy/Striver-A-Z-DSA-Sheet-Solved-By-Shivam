@@ -5,7 +5,7 @@
 The stock should be purchased before selling it, and both actions cannot occur on the same day.
 
 
-Example 1
+**Example 1**
 
 Input: arr = [10, 7, 5, 8, 11, 9]
 
