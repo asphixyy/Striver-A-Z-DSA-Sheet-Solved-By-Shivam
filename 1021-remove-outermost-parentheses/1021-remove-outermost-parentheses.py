@@ -2,7 +2,6 @@ class Solution:
     def removeOuterParentheses(self, s):
         ans = ""
         depth = 0
-
         for ch in s:
             if ch == '(':
                 if depth != 0:
@@ -14,6 +13,3 @@ class Solution:
                     ans += ch
 
         return ans
-
-x = Solution()
-print(x.removeOuterParentheses("(()())(())"))
