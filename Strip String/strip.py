@@ -1,8 +1,10 @@
 class Solution:
     def stripString(self,S1,K):
+        result=""
         for i in range(len(S1)):
             if K==i:
-                return S1[K:]
+                result=S1[i:len(S1)-K]
+                return result
             
             
 x=Solution()
