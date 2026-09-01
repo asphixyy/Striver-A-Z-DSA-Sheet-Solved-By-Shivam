@@ -1,11 +1,7 @@
 class Solution:
     def reverseWords(self, s):
-        words = s.split()
-        words.reverse()
-        return " ".join(words)
+        string=s.split()
+        string=string[::-1]
+        return " ".join(string)
 
-
-x = Solution()
-
-print(x.reverseWords("welcome to the jungle"))
-print(x.reverseWords(" amazing coding skills "))
+            
