@@ -1,19 +1,21 @@
 class Solution:
     def isIsomorphic(self, s, t):
-        map_s = {}
-        map_t = {}
+        s_to_t = {}
+        t_to_s = {}
 
         for i in range(len(s)):
-            if s[i] in map_s:
-                if map_s[s[i]] != t[i]:
+            # Check s -> t
+            if s[i] in s_to_t:
+                if s_to_t[s[i]] != t[i]:
                     return False
             else:
-                map_s[s[i]] = t[i]
+                s_to_t[s[i]] = t[i]
 
-            if t[i] in map_t:
-                if map_t[t[i]] != s[i]:
+            # Check t -> s
+            if t[i] in t_to_s:
+                if t_to_s[t[i]] != s[i]:
                     return False
             else:
-                map_t[t[i]] = s[i]
+                t_to_s[t[i]] = s[i]
 
         return True
