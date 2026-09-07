@@ -11,7 +11,7 @@ F(n) = F(n - 1) + F(n - 2), for n &gt; 1.
 <p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>Input:</strong> n = 2
+<strong>Input:</strong> n = 2.
 <strong>Output:</strong> 1
 <strong>Explanation:</strong> F(2) = F(1) + F(0) = 1 + 0 = 1.
 </pre>
