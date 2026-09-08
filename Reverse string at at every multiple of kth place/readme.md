@@ -1,1 +1,1 @@
-**You are given a string and you have to reverse the string by kth places and all multiples of k**
+**You are given two strings and you have to reverse the S1 by kth places in right direction and s2 in left direction by kth places. If sum of s1 and s2 = sum of reversed strings' sum return True else False**
