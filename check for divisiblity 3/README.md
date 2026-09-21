@@ -1,0 +1,1 @@
+**Count integers in a given range defined by 2 values start and end both inclusive which are division by three and the sum of its digit is even Take starting and ending point as one and hundred in python**
