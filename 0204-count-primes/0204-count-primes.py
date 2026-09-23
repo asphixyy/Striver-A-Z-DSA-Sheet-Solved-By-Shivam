@@ -10,10 +10,9 @@ class Solution:
 
         while i * i < n:
             if prime[i]:
-                start = i * i
-                count = (n - 1 - start) // i + 1
-                prime[start:n:i] = b'\x00' * count
-
+                prime[i * i:n:i] = b'\x00' * (
+                    (n - 1 - i * i) // i + 1
+                )
             i += 1
 
         return sum(prime)
