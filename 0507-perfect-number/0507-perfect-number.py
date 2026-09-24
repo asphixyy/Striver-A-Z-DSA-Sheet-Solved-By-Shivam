@@ -3,16 +3,16 @@ class Solution:
         if n <= 1:
             return False
 
-        sums = 1
-
+        total = 1
         i = 2
+
         while i * i <= n:
             if n % i == 0:
-                sums += i
+                total += i
 
                 if i != n // i:
-                    sums += n // i
+                    total += n // i
 
             i += 1
 
-        return sums == n
+        return total == n
