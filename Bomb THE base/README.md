@@ -1,6 +1,5 @@
 ## Bomb the Base
 
-**Difficulty:** Easy
 
 ### Problem Statement
 
