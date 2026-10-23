@@ -8,3 +8,4 @@ class Solution:
 
 x=Solution()
 print(x.pattern1(4))
+#pattern code#
