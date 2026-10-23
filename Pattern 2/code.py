@@ -5,3 +5,5 @@ class Solution:
                 print("*",end="")
             print()
         return
+x=Solution()
+print(x.pattern2(4))
